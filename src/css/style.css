@@ -1,0 +1,70 @@
+body {
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+main {
+    display: flex;
+    background-color: rgba(244, 244, 244, 0.5);
+    border-radius: 10px;
+    padding: 50px 100px;
+    gap: 150px;
+}
+
+#columnOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#logoKenzie {
+    margin-top: 40px;
+}
+
+#columnTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#columnTwo p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    width: 375px;
+}
+
+#columnTwo button {
+    background-color: #049cd8;
+    border: 3px solid #f4f4f4;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    width: 400px;
+    height: 104px;
+    cursor: pointer;
+
+    color: #ffffff;
+}
+
+#columnTwo button:hover {
+    color: #049cd8;
+    background-color: transparent;
+    border: 3px solid #049cd8;
+    transition: 0.5s;
+}
