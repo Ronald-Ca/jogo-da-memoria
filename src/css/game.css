@@ -60,3 +60,8 @@ main {
     margin: 0 auto;
     row-gap: 70px;
 }
+
+main img {
+    width: 200px;
+    height: 200px;
+}
